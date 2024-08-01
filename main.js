@@ -6,7 +6,7 @@ const target = "azadi";
 // this is a simple if() i used includes mrthod for this !!!
 
 if (myString.includes(target) == true) {
-  console.log("Are baba !!!");
+  console.log(`${target} is inside myString!`);
 } else {
-  console.log("gashtam nabood nagard nist");
+  console.log(`${target} is not inside myString!`);
 }
