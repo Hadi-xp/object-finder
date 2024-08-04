@@ -1,15 +1,15 @@
-// this file includes a simple if for finding a word in another string var
+// this file includes a simple if for finding a word in another string var im using promt method to get input from User
 
 const myString = "#zan_zendegi_azadi";
-const target = "azadi";
+const target = prompt('what are you looking for ?')
 
-// this is a simple if() i used includes mrthod for this !!!
+// this is a simple if() and  i used includes mrthod for this !!!
 
 if (myString.includes(target) == true) {
-  console.log(`${target} is inside myString!`);
+  alert(`${target} is inside myString!`);
 } else {
-  console.log(`${target} is not inside myString!`);
+  alert(`${target} is not inside myString!`);
 }
 
 
-// as you can see if my condition be true it will log the first statment and if it wont the second statment shows up!!
+// as you can see if my condition be true it will Alert the first statment and if it wont the second statment shows up!!
